@@ -22,9 +22,11 @@ int main() {
     double prixTrajetVoiture = distance*consoVoiture/100*(prixEssence+prixEssence);
     double prixTrajetTrain =prixTrain;
     if(prixTrajetTrain < prixTrajetVoiture) {
-        cout << "Le trajet en train est moins cher" endl;
-    } else if(prixTrajetTrain) {
-
+        cout << "Le trajet en train est moins cher" << endl;
+    } else if(prixTrajetTrain > prixTrajetVoiture) {
+        cout << "Le trajet en voiture est moins cher" << endl;
+    } else {
+        cout << "Le trajet coûte la même chose en voiture ou en train" << endl;
     }
     return 0;
 }
