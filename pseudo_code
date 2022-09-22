@@ -1,0 +1,12 @@
+#Entrée
+distance_dom_travail (km)
+cout_billet_train (CHF)
+consommation100Km (L / 100 Km)
+cout_essence (l / Km)
+cout_amortissement (CHF/Km)
+
+#Sortie
+Type de locomotion le moins cher
+
+#Algorithme
+
