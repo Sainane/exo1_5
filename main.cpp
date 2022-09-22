@@ -8,15 +8,15 @@ int main() {
     double prixEssence(0);
     double prixAmortissement(0);
 
-    cout << "Distance : ";
+    cout << "Distance : " << endl;
     cin >> distance;
-    cout << "Prix du billet de train : ";
+    cout << "Prix du billet de train : " << endl;
     cin >> prixTrain;
-    cout << "Consommation de la voiture en L par 100 Km : ";
+    cout << "Consommation de la voiture en L par 100 Km : " << endl;
     cin >> consoVoiture;
-    cout << "Prix de l'essence en CHF/L : ";
+    cout << "Prix de l'essence en CHF/L : " << endl;
     cin >> prixEssence;
-    cout << "Prix de l'amortissement de la voiture en CHF/Km : ";
+    cout << "Prix de l'amortissement de la voiture en CHF/Km : " << endl;
     cin >> prixAmortissement;
 
     double prixTrajetVoiture = distance*consoVoiture/100*(prixEssence+prixEssence);
